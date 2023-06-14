@@ -14,6 +14,11 @@ mongoose.connect('mongodb://localhost/recipesDB', {
   useUnifiedTopology: true
 });
 
+const recipeRouter = require('./routes/recipes');
+
+app.use('/recipes', recipeRouter);
+
+
 const connection = mongoose.connection;
 connection.once('open', () => {
   console.log('Connected to MongoDB database');
