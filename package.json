@@ -2,5 +2,24 @@
   "dependencies": {
     "express": "^4.18.2",
     "mongoose": "^7.3.0"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "recipe-app",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahassan2001/recipe-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahassan2001/recipe-app/issues"
+  },
+  "homepage": "https://github.com/ahassan2001/recipe-app#readme",
+  "description": ""
 }
