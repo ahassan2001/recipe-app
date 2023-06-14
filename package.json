@@ -1,7 +1,10 @@
 {
   "dependencies": {
+    "axios": "^1.4.0",
+    "bootstrap": "^5.3.0",
     "express": "^4.18.2",
-    "mongoose": "^7.3.0"
+    "mongoose": "^7.3.0",
+    "react-router-dom": "^6.13.0"
   },
   "scripts": {
     "start": "node server.js"
@@ -9,7 +12,6 @@
   "name": "recipe-app",
   "version": "1.0.0",
   "main": "server.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ahassan2001/recipe-app.git"
